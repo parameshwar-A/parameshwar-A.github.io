@@ -27,9 +27,9 @@ export const DATA = {
   location: "Kanchipuram, IN",
   locationLink: "https://maps.app.goo.gl/UBKd5R9WzBjLGcqR8",
   description:
-    "An Engineer who loves to solve problems and create solutions not just apps, curious being and loves reading books!",
+    "An engineer who loves to solve problems and create holistic solutions—not just apps. A naturally curious person and an avid reader.",
   summary:
-    "Quite a different story for a software engineer, I gradudated as an Automobile Engineer since I was mad about them in my early teens and loved every second learning about them. Then I came to discover it is not just automobiles, I loved the problems and the complex machines which are built around simpler and fundamental concepts. I loved that intriguing designs and the way people solved problems. Explored computer simulation in college days, I explored and diversified my studies to problem solving and learnt a programming language. which changed a lot and opened a big door of opportunities to solve whole lot of problems. After 4+ year of industry experience here I am as a software engineer who worked on cross domains and solving everyday problems!",
+    "My journey to becoming a software engineer is a bit unconventional. I graduated with a degree in Automobile Engineering, fueled by a teenage fascination with automobiles. During my studies, I discovered my true passion wasn't just automobiles, but the underlying mechanics of complex problems and the elegant ways people solve them. My exposure to computer simulation in college prompted me to diversify my skills, leading me to learn programming. This opened doors to a whole new world of problem-solving opportunities. After 4+ years of industry experience across various domains, I now thrive as a software engineer, building solutions for everyday problems.",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -57,7 +57,7 @@ export const DATA = {
       order: 8, enabled: true,
       label: "Contact",
       heading: "Get in Touch",
-      text: "Want to chat? Just ping me in linkedin or any other socials will reply to you",
+      text: "Want to chat? Just ping me on LinkedIn or any other social platform and I'll get back to you!",
     },
   },
   photos: [
@@ -119,7 +119,7 @@ export const DATA = {
       start: "February 2025",
       end: undefined,
       description:
-        "Actively developing software solutions to accomodate the AI and ML solutions created by my amazing collagues. We take the solutions from POC to scalling enterprise application",
+        "Actively developing software to accommodate AI and ML models created by my colleagues, scaling solutions from initial proof-of-concept to full enterprise applications.",
     },
     {
       company: "Infosys",
@@ -132,7 +132,7 @@ export const DATA = {
       start: "August 2021",
       end: "February 2025",
       description:
-        "Learnt the fundamentals of actual financial markets and software solutions available in that arena and helped in constructing regulatory reports by programming an in house language securely and safely designed to keep the reporting stable and scallable within the organization",
+        "Learned the fundamentals of financial markets and enterprise software solutions. Helped construct regulatory reports by programming in a secure, in-house language designed to keep reporting stable and scalable across the organization.",
     },
     {
       company: "KanchiLUG",
@@ -145,7 +145,7 @@ export const DATA = {
       start: "Mar 2022",
       end: "Dec 2024",
       description:
-        "While I was searching for a Linux user community, I found one in my hometown but they are not alive and there were no activies conducted. Then I connected with the group founder and he was happy that I accepted to volunteer and be a community co-ordinator. I moved the group for slient to soaring and one of the most active linux community in TamilNadu within 2 years. We conducted 50+ tech talks, 2 conferences, lot of youtube lives about open source tech",
+        "While searching for a local Linux user community, I found one in my hometown that had been largely inactive. After connecting with the founder, I volunteered as a community coordinator. Over two years, I helped transform the group from silent to soaring, making it one of the most active Linux communities in Tamil Nadu. We conducted 50+ tech talks, hosted 2 conferences, and ran numerous YouTube live streams about open-source technologies.",
     },
     {
       company: "Python Bootcamps",
@@ -158,7 +158,7 @@ export const DATA = {
       start: "Oct 2022",
       end: undefined,
       description:
-        "I came from a non-CS background so I had to learn the very basics of computers to do a lot of stuff. Those learning paved a way for me to become a better programmer. So I share the knowledge i gained to others especially who are not from CS background.",
+        "Coming from a non-CS background, I had to learn the very basics of computers from scratch. That foundational learning paved the way for me to become a better programmer. I now share the knowledge I've gained by teaching others, especially those transitioning from non-traditional backgrounds.",
     },
     {
       company: "Gannet Engineering",
@@ -171,7 +171,7 @@ export const DATA = {
       start: "Mar 2018",
       end: "Jan 2021",
       description:
-        "Created computerized simulation tests to study the vehicle dynamics and assisted to document them and convert them into educative courses.",
+        "Created computerized simulation tests to study vehicle dynamics, assisting in documenting the results and converting them into educational courses.",
     },
   ],
   education: [
@@ -201,13 +201,13 @@ export const DATA = {
       dates: "July 2026",
       active: true,
       description:
-        "Reading docx files can burn through your tokens even to just summary the contents. what about extracting them, that would require a lot more! I faced this problem a lot so I started reading about them and found out that docx are nothing but a zip of xml files. That gave me hope since xml are structured these files will be structured I just have to take a lot of docx files and work my way up to develop a parser since I won't get any docs for these kind of exploration. So I did my own and created this parser, No LLM Calls this extracts full content. The parsed output is generated as json which you can give to llm to proceed with other tasks. So no more wastage of tokens for just reading the docX files",
+        "Reading .docx files can burn through tokens even when just summarizing the contents, let alone extracting them. I faced this problem often, which led me to discover that .docx files are essentially ZIP archives of XML files. This structured format inspired me to build a custom parser from scratch without relying on external documentation. This parser extracts the full content without making any LLM calls and generates the output as JSON, which can then be fed into an LLM for further tasks. This eliminates token wastage when reading .docx files.",
       technologies: [
         "Python",
         "Xml",
       ],
       links: [
-                {
+        {
           type: "Source",
           href: "https://github.com/parameshwar-A/docxtox",
           icon: <Icons.github className="size-3" />,
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "March 2022 - Present",
       active: true,
       description:
-        "Tolkapy is created to digitize the tamil grammar rules devised by tholkappiyar. This project serves as a strong foundation to generate tamil text with proper grammar, base for spell checkers and other tamil language tools. Not just me a group of open source enthusiasts are now working on this. Started as a project by a tamil professor who attended a python bootcamp I taught. we ended up making it open source and collaborating with others",
+        "Tolkapy was created to digitize the Tamil grammar rules devised by Tholkappiyar. This project serves as a strong foundation for generating grammatically correct Tamil text, building spell checkers, and creating other language tools. What started as a project by a Tamil professor who attended my Python bootcamp has now grown into an open-source collaboration involving a dedicated group of enthusiasts.",
       technologies: [
         "Python",
       ],
@@ -248,7 +248,7 @@ export const DATA = {
       dates: "March 2024 - July 2024",
       active: false,
       description:
-        "XLReader is a custom built mobile app to read and query data from Xlsx/CSV files I specifically designed for a real time usage for a family member who actively uses and needed a better app than google sheets to operate in mobile.",
+        "XLReader is a custom-built mobile app designed to read and query data from XLSX and CSV files. I specifically developed it for a family member who needed a more efficient, real-time alternative to Google Sheets for mobile operations.",
       technologies: [
         "Python",
         "flet",
