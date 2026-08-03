@@ -56,7 +56,11 @@ const sectionComponents: Record<string, React.ReactNode> = {
                 className="flex items-center gap-x-3 justify-between group"
               >
                 <div className="flex items-center gap-x-3 flex-1 min-w-0">
-                  {education.logoUrl ? (
+                  {education.icon ? (
+                    <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-white flex-none flex items-center justify-center">
+                      {education.icon}
+                    </div>
+                  ) : education.logoUrl ? (
                     <img
                       src={education.logoUrl}
                       alt={education.school}
