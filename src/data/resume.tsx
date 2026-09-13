@@ -61,10 +61,10 @@ export const DATA = {
     },
   },
   photos: [
+    {src: "/photos/pom.jpg", alt: "Book Cover of The Psychology of Money" },
     { src: "/photos/period.jpg", alt: "Book Cover of Its about the bloody time Period" },
     { src: "/photos/ragasiyam.jpg", alt: "Book Cover of Ragasiyam Paraman Ragasiyam" },
     { src: "/photos/sameasever.jpg", alt: "Book Cover of Same as Ever" },
-    { src: "/photos/kalki.jpg", alt: "Book Cover of PoiMan Karadu" },
   ],
   skills: [
     { name: "Python", icon: Python },
@@ -197,7 +197,7 @@ export const DATA = {
   projects: [
     {
       title: "DocxToX",
-      href: "https://github.com/parameshwar-A/docxtox",
+      href: "https://pypi.org/project/docxtox/",
       dates: "July 2026",
       active: true,
       description:
@@ -207,6 +207,11 @@ export const DATA = {
         "Xml",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://pypi.org/project/docxtox/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/parameshwar-A/docxtox",
