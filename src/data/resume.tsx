@@ -196,10 +196,25 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "WakeWord Detection on ESP32",
+      dates: "Sep 2026",
+      active: true,
+      description:
+        "Years ago, I left wake word detection on a 4GB mobile device unresolved. It remained an open question.\nRecently, eyeing smart speakers, a thought struck: Could my dusty ESP32 do it? Naturally, mine lacked the ESP32-S3’s vector optimizations, but running into that limit felt like a challenge: make it work on vanilla silicon anyway.\nI bought and wired an INMP441, recorded training audio on the board, and trained a tiny model. First boot? Deafening silence. One eternity of flashes later— after fixing bit bugs, retrained with more audio samples and paranoid false positives—Finally, it worked!\nClosing that chapter on 520KB SRAM and 4MB flash feels sweet.",
+      technologies: [
+        "C",
+        "Python",
+        "Embedded Systems",
+        "ESP IDF"
+      ],
+      image: "/wwd.png",
+      video: "",
+    },
+    {
       title: "DocxToX",
       href: "https://pypi.org/project/docxtox/",
       dates: "July 2026",
-      active: true,
+      active: false,
       description:
         "Reading .docx files can burn through tokens even when just summarizing the contents, let alone extracting them. I faced this problem often, which led me to discover that .docx files are essentially ZIP archives of XML files. This structured format inspired me to build a custom parser from scratch without relying on external documentation. This parser extracts the full content without making any LLM calls and generates the output as JSON, which can then be fed into an LLM for further tasks. This eliminates token wastage when reading .docx files.",
       technologies: [
