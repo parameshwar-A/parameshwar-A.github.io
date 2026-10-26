@@ -41,7 +41,7 @@ export const DATA = {
       order: 5, enabled: true,
       label: "My Projects",
       heading: "Check out my latest work",
-      text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+      text: "I've worked on variety of projects across domains, Here are my recent & favourites",
     },
     hackathons: {
       order: 7, enabled: false,
@@ -207,8 +207,43 @@ export const DATA = {
         "Embedded Systems",
         "ESP IDF"
       ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/parameshwar-A/wakeword_detection_esp32",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
       image: "/wwd.png",
-      video: "",
+      video: "/demo.mp4",
+    },
+    {
+      title: "Linux CTF: Gamified module for learning Linux",
+      dates: "Oct 2026",
+      active: false,
+      description:
+        "We learn best when we actively participate and get our hands dirty. Inspired by open-source community discussions and the need for practical, active learning, I built Linux CTF to transform command-line mastery into a game. Instead of following rigid copy-paste guides, players navigate custom TUI challenge rooms to track down flags using core GNU utilities. By engineering it with rootless Podman isolation and Kerckhoffs's principle for dynamic verification, the platform offers a completely transparent yet secure sandbox for developers to build the runtime debugging instincts essential for modern cloud and AI-assisted workflows.",
+      technologies: [
+        "C",
+        "Shell",
+        "Python",
+        "Podman"
+      ],
+      links: [
+        {
+          type: "Demo",
+          href: "https://youtu.be/mXnFcIfd4ec?si=z3_5tGP9Ti7_GIcB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/parameshwar-A/linux-ctf",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/preview.mp4",
     },
     {
       title: "DocxToX",
